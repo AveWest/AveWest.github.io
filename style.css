@@ -1,0 +1,69 @@
+/* Import a nice font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f172a; /* dark blue */
+  color: #e5e7eb;           /* light text */
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  background-color: #020617;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+/* Text */
+p {
+  font-size: 1rem;
+  color: #cbd5f5;
+}
+
+/* Project list */
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/* Links */
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
